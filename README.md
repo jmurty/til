@@ -16,6 +16,8 @@ Other TILs:
 
 ### VSCode
 
+- [Markdown Table of Contents (ToC)](vscode/markdown-table-of-contents.md)
+
 ## License
 
 &copy; 2020 James Murty
