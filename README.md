@@ -18,6 +18,7 @@ Other TILs:
 ### Git
 
 - [Pull (fast forward) another branch](git/pull-fast-forward-another-branch.md)
+- [Stash specific files](git/stash-specific-files.md)
 
 ### VSCode
 
