@@ -19,6 +19,7 @@ Other TILs:
 
 - [Pull (fast forward) another branch](git/pull-fast-forward-another-branch.md)
 - [Stash specific files](git/stash-specific-files.md)
+- [Use `switch` and `restore` commands in Git from 2.23](git/use-switch-and-restore-in-git-from-2.23.md)
 
 ### VSCode
 
