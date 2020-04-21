@@ -12,7 +12,12 @@ Other TILs:
 
 ## Topics
 
+- [Git](#git)
 - [VSCode](#vscode)
+
+### Git
+
+- [Pull (fast forward) another branch](git/pull-fast-forward-another-branch.md)
 
 ### VSCode
 
