@@ -14,6 +14,7 @@ Other TILs:
 
 - [Git](#git)
 - [Python](#python)
+- [Unix(y)](#unixy)
 - [VSCode](#vscode)
 
 ### Git
@@ -24,7 +25,11 @@ Other TILs:
 
 ### Python
 
-- [Install Python 3 tools with pipx](python/install-python-tools-with-pipx.md)
+- [Install Python 3 tools with `pipx`](python/install-python-tools-with-pipx.md)
+
+### Unix(y)
+
+- [Run commands in parallel with GNU `parallel`](unix/run-commands-in-parallel-with-parallel.md)
 
 ### VSCode
 
