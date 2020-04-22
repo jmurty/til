@@ -1,6 +1,6 @@
-# TIL: Today I Learned – small notes as I learn
+# TIL: Today I Learned – short notes, to learn and remember
 
-Small notes about small tech tips and tricks that I learn day-to-day.
+Short notes with tech tips and tricks that I learn from day-to-day.
 
 Inspired by https://github.com/jbranchaud/til
 
