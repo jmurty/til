@@ -12,10 +12,15 @@ Other TILs:
 
 ## Topics
 
+- [AWS](#aws)
 - [Git](#git)
 - [Python](#python)
 - [Unix(y)](#unixy)
 - [VSCode](#vscode)
+
+### AWS
+
+- [Use a Lambda function to duplicate other functions](aws/function-to-duplicate-lambda-functions.md)
 
 ### Git
 
