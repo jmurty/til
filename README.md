@@ -2,14 +2,6 @@
 
 Short notes with tech tips and tricks that I learn from day-to-day.
 
-Inspired by https://github.com/jbranchaud/til
-
-Other TILs:
-
-- [Today I Learned by Hashrocket](https://til.hashrocket.com)
-- [jwworth/til](https://github.com/jwworth/til)
-- [thoughtbot/til](https://github.com/thoughtbot/til)
-
 ## Topics
 
 - [AWS](#aws)
@@ -44,6 +36,16 @@ Other TILs:
 ### VSCode
 
 - [Markdown Table of Contents (ToC)](vscode/markdown-table-of-contents.md)
+
+## About
+
+Inspired by https://github.com/jbranchaud/til
+
+Other TILs:
+
+- [Today I Learned by Hashrocket](https://til.hashrocket.com)
+- [jwworth/til](https://github.com/jwworth/til)
+- [thoughtbot/til](https://github.com/thoughtbot/til)
 
 ## License
 
