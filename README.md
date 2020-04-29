@@ -13,6 +13,7 @@ Other TILs:
 ## Topics
 
 - [AWS](#aws)
+- [ElasticSearch](#elasticsearch)
 - [Git](#git)
 - [Python](#python)
 - [Unix(y)](#unixy)
@@ -21,6 +22,10 @@ Other TILs:
 ### AWS
 
 - [Use a Lambda function to duplicate other functions](aws/function-to-duplicate-lambda-functions.md)
+
+### ElasticSearch
+
+- [ElasticSearch API Cheatsheet](elasticsearch/elasticsearch-api-cheatsheet.md)
 
 ### Git
 
