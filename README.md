@@ -28,6 +28,7 @@ Short notes with tech tips and tricks that I learn from day-to-day.
 ### Python
 
 - [Install Python 3 tools with `pipx`](python/install-python-tools-with-pipx.md)
+- [Use multi-line text blocks with `inspect.cleandoc`](python/use-multi-line-text-blocks-with-inspect-cleandoc.md)
 
 ### Unix(y)
 
