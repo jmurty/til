@@ -7,6 +7,7 @@ Short notes with tech tips and tricks that I learn from day-to-day.
 - [AWS](#aws)
 - [ElasticSearch](#elasticsearch)
 - [Git](#git)
+- [GitHub](#github)
 - [Python](#python)
 - [Unix(y)](#unixy)
 - [VSCode](#vscode)
@@ -24,6 +25,10 @@ Short notes with tech tips and tricks that I learn from day-to-day.
 - [Pull (fast forward) another branch](git/pull-fast-forward-another-branch.md)
 - [Stash specific files](git/stash-specific-files.md)
 - [Use `switch` and `restore` commands in Git from 2.23](git/use-switch-and-restore-in-git-from-2.23.md)
+
+### GitHub
+
+- [Username alias `@me`](github/username-alias-at-me.md)
 
 ### Python
 
