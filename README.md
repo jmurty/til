@@ -22,6 +22,7 @@ Short notes with tech tips and tricks that I learn from day-to-day.
 
 ### Git
 
+- [Keep the message when amending files in the last commit](git/keep-message-when-amending-last-commit.md)
 - [Pull (fast forward) another branch](git/pull-fast-forward-another-branch.md)
 - [Stash specific files](git/stash-specific-files.md)
 - [Use `switch` and `restore` commands in Git from 2.23](git/use-switch-and-restore-in-git-from-2.23.md)
