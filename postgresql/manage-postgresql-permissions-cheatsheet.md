@@ -22,9 +22,24 @@ List users ("Role name") with permissions ("Attributes": `Superuser`,
 \du
 ```
 
+List schemas, with owner info:
+```sql
+\dn
+```
+
+List databases, with owner and privileges info:
+```sql
+\l
+```
+
 List ownership of tables within a schema:
 ```sql
-SELECT schemaname, tablename, tableowner FROM pg_tables WHERE schemaname = 'XYZ';
+-- Use \dt with schema name prefix (don't forget the dot)
+\dt schema_name.
+
+-- Equivalent SQL:
+SELECT schemaname, tablename, tableowner
+  FROM pg_tables WHERE schemaname = 'schema_name';
 ```
 
 List ACL permissions for tables or views in a schema (compatible with
@@ -72,12 +87,31 @@ GRANT SELECT ON TABLES TO GROUP group_name;
 - Use `ALL` (aka `ALL PRIVILEGES`) privilege instead of `USAGE` / `SELECT` to
   grant all privileges.
 
+Change ownership of database:
+```sql
+ALTER DATABASE db_name OWNER TO user_name;
+```
+
 Change owner of table (necessary to permit some table changes that cannot be
 permitted with just table-write permissions):
 ```sql
 ALTER TABLE schema_name.table_name OWNER TO user_name;
 ```
 
+Change table ownership in bulk:
+
+- Create an `EXECUTE` function to simplify ownership changes, from
+  https://www.depesz.com/2007/10/19/grantall/
+  ```sql
+  CREATE FUNCTION EXECUTE(text)
+  RETURNS void AS $BODY$BEGIN EXECUTE $1; END;$BODY$ LANGUAGE plpgsql;
+  ```
+- Dynamically generate and execute `ALTER TABLE` statements:
+  ```sql
+  SELECT EXECUTE('ALTER TABLE ' || table_name || ' OWNER TO user_name')
+    FROM information_schema.tables
+   WHERE table_schema = 'public' AND table_catalog = '<DBNAME>';
+  ```
 
 ## Other references
 
