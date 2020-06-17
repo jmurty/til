@@ -8,6 +8,7 @@ Short notes with tech tips and tricks that I learn from day-to-day.
 - [ElasticSearch](#elasticsearch)
 - [Git](#git)
 - [GitHub](#github)
+- [PostgreSQL](#postgresql)
 - [Python](#python)
 - [Unix(y)](#unixy)
 - [VSCode](#vscode)
@@ -30,6 +31,10 @@ Short notes with tech tips and tricks that I learn from day-to-day.
 ### GitHub
 
 - [Username alias `@me`](github/username-alias-at-me.md)
+
+### PostgreSQL
+
+- [Manage PostgreSQL Permissions (Cheatsheet)](postgresql/manage-postgresql-permissions-cheatsheet.md)
 
 ### Python
 
