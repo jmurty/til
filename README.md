@@ -15,6 +15,7 @@ Short notes with tech tips and tricks that I learn from day-to-day.
 
 ### AWS
 
+- [Redshift: Generate DDL Create Table Statements](redshift/redshift-generate-ddl-create-table-statements.md)
 - [Use a Lambda function to duplicate other functions](aws/function-to-duplicate-lambda-functions.md)
 
 ### ElasticSearch
