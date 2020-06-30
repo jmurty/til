@@ -36,6 +36,7 @@ Short notes with tech tips and tricks that I learn from day-to-day.
 ### PostgreSQL
 
 - [Manage PostgreSQL Permissions (Cheatsheet)](postgresql/manage-postgresql-permissions-cheatsheet.md)
+- [Print size of PostgreSQL tables etc](postgresql/print-size-of-postgresql-tables-etc.md)
 
 ### Python
 
