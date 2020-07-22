@@ -16,6 +16,16 @@ Pretty-print byte values to show human-friendly values in MB, GB, etc with
 SELECT pg_size_pretty(pg_database_size('DB_NAME'));
 ```
 
+List a schema's tables in order of size, descending:
+```sql
+SELECT tablename,
+       pg_total_relation_size(tablename::text) AS size,
+       pg_size_pretty(pg_total_relation_size(tablename::text)) AS size_pretty
+ FROM pg_tables
+WHERE schemaname = 'SCHEMA_NAME'
+ORDER BY size DESC;
+```
+
 See [Database Object Size
 Functions](https://www.postgresql.org/docs/9.4/functions-admin.html#FUNCTIONS-ADMIN-DBSIZE)
 
