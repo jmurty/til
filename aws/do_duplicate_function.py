@@ -123,8 +123,12 @@ def lambda_handler(event, context):
             "MemorySize",
             "Publish",
             "Environment",
+            "VpcConfig"
         )
     }
+    if 'VpcConfig' in new_function_data:
+        # Remove VpcId, because this parameter can't be used to create a new lambda function
+        new_function_data['VpcConfig'].pop('VpcId', None)
     # Override function metadata values with those provided in event
     new_function_data.update(event)
     # Provide function code zip data
