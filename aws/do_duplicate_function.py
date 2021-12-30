@@ -124,7 +124,8 @@ def lambda_handler(event, context):
             "Publish",
             "Environment",
             "VpcConfig",
-            "Layers"
+            "Layers",
+            "Architectures"
         )
     }
     if 'VpcConfig' in new_function_data:
